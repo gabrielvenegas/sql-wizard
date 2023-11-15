@@ -1,0 +1,22 @@
+{
+  "name": "wzd-database",
+  "version": "1.0.1",
+  "description": "A helper CLI built to be used with SQL Wizard GPT",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "wzd-database": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Enrique",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "mysql": "^2.18.1",
+    "pg": "^8.11.3",
+    "yargs": "^17.7.2"
+  }
+}
