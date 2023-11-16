@@ -1,6 +1,6 @@
 {
   "name": "wzd-database",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper CLI built to be used with SQL Wizard GPT",
   "main": "index.js",
   "type": "module",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.12",
+    "mssql": "^10.0.1",
     "mysql": "^2.18.1",
     "pg": "^8.11.3",
     "yargs": "^17.7.2"
